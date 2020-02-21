@@ -38,13 +38,13 @@ Thinking in react involves following the steps when building an app:
 
 - [x] Describe state.
 
-state allows the app developper to make their UI interactive by giving them the ability to trigger changes tot he underlying data.
+State allows the app developper to make their UI interactive by giving them the ability to trigger changes tot he underlying data.
 
 - [x] Describe props.
-props is an object that holds data passed down form a parent componenent to a child component.
+Props is an object that holds data passed down form a parent componenent to a child component.
 
 - [x] What are side effects, and how do you sync effects in a React component to state or prop changes?
-side effects are changes caused by invoking a function, and which affect state components etc outside of the scope of that function. Effects in a react component are synced to state or prop changes via a useEffect hook.
+Side effects are changes caused by invoking a function, and which affect state components etc outside of the scope of that function. Effects in a react component are synced to state or prop changes via a useEffect hook.
 
 ## Project Set Up
 

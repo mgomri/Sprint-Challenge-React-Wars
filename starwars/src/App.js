@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 // import CharacterList from './components/CharacterPage/CharacterList';
 import CharacterCard from './components/CharacterPage/CharacterCard';
+import Form from './components/Form.js'
 
 import axios from 'axios';
 
@@ -15,8 +16,8 @@ const App = () => {
   // sync up with, if any.
 
   useEffect(() => {
-    axios.get('https://swapi.co/api/people/').then(response => {
-      console.log(response.data.results);
+    axios.get('https://swapi.co/api/people').then(response => {
+      console.log(response.data);
       setCharacters(response.data.results);
     })
     .catch(error => {
@@ -35,6 +36,7 @@ const App = () => {
     );
     
   })};
+  <Form/>
     </div>
   );
 }

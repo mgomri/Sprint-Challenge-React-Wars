@@ -18,6 +18,7 @@ return (
         <CardTitle>{char.name}</CardTitle>
         <CardSubtitle>{char.gender}</CardSubtitle>
         <CardText>{char.birth_year}</CardText>
+        <Button color="danger">Created :{char.created}</Button>
         
         
       </CardBody>

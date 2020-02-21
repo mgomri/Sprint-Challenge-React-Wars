@@ -24,15 +24,27 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [x] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+ React is a flexible Javascript library that allows developpers to build user interfaces by breking down complex UI into smaller components. The concept of Component Lifecycle A good example of what react is used for. Dynamic apps will render dynamic components which go through three phases in its life cycle: Mounting, Updating and Unmounting.
 
-- [ ] What does it mean to _think_ in react?
+- [x] What does it mean to _think_ in react?
+Thinking in react involves following the steps when building an app:
 
-- [ ] Describe state.
+		Step 1: Break The UI Into A Component Hierarchy.
+		Step 2: Build A Static Version in React.
+		Step 3: Identify The Minimal (but complete) Representation Of UI State.
+		Step 4: Identify Where Your State Should Live.
+		Step 5: Add Inverse Data Flow.
 
-- [ ] Describe props.
+- [x] Describe state.
 
-- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+state allows the app developper to make their UI interactive by giving them the ability to trigger changes tot he underlying data.
+
+- [x] Describe props.
+props is an object that holds data passed down form a parent componenent to a child component.
+
+- [x] What are side effects, and how do you sync effects in a React component to state or prop changes?
+side effects are changes caused by invoking a function, and which affect state components etc outside of the scope of that function. Effects in a react component are synced to state or prop changes via a useEffect hook.
 
 ## Project Set Up
 
@@ -60,12 +72,12 @@ Follow these steps for completing your project:
 
 Your finished project must include all of the following requirements:
 
-- [ ] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen. 
-- [ ] Follow the documentation to learn how to fetch a list of "people". However, don't spend _too_ long on this. Here is a link for you to follow if you've looked around the docs for about 15 minutes or so and haven't found where to go - [Secret Link to Awesomeness 🤫](https://swapi.co/documentation#people).
-- [ ] Set the data you fetch to state.
-- [ ] Map over the list and render a component for each character on the page.
-- [ ] You must display at least one element for each star wars character in the data set.
-- [ ] The elements must be styled with either Reactstrap or styled-components - don't rely on browser default styles.
+- [x] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen. 
+- [x] Follow the documentation to learn how to fetch a list of "people". However, don't spend _too_ long on this. Here is a link for you to follow if you've looked around the docs for about 15 minutes or so and haven't found where to go - [Secret Link to Awesomeness 🤫](https://swapi.co/documentation#people).
+- [x] Set the data you fetch to state.
+- [x] Map over the list and render a component for each character on the page.
+- [x] You must display at least one element for each star wars character in the data set.
+- [x] The elements must be styled with either Reactstrap or styled-components - don't rely on browser default styles.
 
 #### Required best practices:
 
